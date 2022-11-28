@@ -1,0 +1,49 @@
+.image, img{
+    width:25%;
+    
+    /* height: 20%; */
+   
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    margin-left: 40%;
+    gap: 50px;
+    cursor: pointer  
+}
+.head{
+    display: flex;
+}
+body{
+    background-image: url("../image/bg.jpg");
+    background-size: 85%;
+    font-family: sans-serif;
+
+}
+form{
+    margin-left: 30%;
+    margin-top: 20px;
+    background-color: palevioletred;
+    width: 40%;
+    padding: 40px;
+    border-radius: 40px;
+    
+}
+input[type="text"],input[type="email"],input[type="password"]{
+    width: 90%;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border: none;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+button{
+    background-color: aquamarine;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    margin-top: 5%;
+    
+}

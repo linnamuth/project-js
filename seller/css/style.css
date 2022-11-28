@@ -1,0 +1,55 @@
+.image, .logo{
+    width:25%;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    margin-left: 20%;
+    gap: 70px;
+    cursor: pointer;
+    margin-top: 20px;  
+    
+}
+.head{
+    display: flex;
+    background-color: palevioletred;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(246, 230, 211); */
+}
+select{
+    padding: 30px;
+}
+input[type="search"]{
+    margin-top: 30px;
+    padding: 10px;
+    width: 60vh;
+    border: none;
+}
+.img{
+    width: 90%;
+    padding: 20px;
+    border: solid ;
+    border-color: bisque;
+
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.ptoto{
+    /* background-color: rgb(245, 248, 247); */
+    padding: 20px;
+    width: 40%;
+
+}
+button{
+    padding: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+.nav{
+    width: 40%;
+    
+}
